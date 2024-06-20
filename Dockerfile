@@ -1,2 +1,2 @@
 From docker.io/library/nginx:latest
-ADD nginx.conf /etc/nginx
+COPY nginx.conf /etc/nginx/nginx.conf
